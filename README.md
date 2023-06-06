@@ -20,10 +20,10 @@ These two datasets are composited tif file (30 meter, Hong Kong 1980 Grid coordi
 
 ## Methods
 Please refer to our paper (`TODO`) and the code (1main.py1 and 1models.py1). The core part is in lines 276-278:
-'''python
+```python
 pop_p_grid = model(in_data_grid).reshape(m, n)
 delog_pop_p_grid =  torch.pow(10, pop_p_grid)
 pop_p_grid_aggr_TPU = torch.log10(aggragate_torch(delog_pop_p_grid, torch.from_numpy(RegionMask[1]))[1:]).squeeze(-1)
 l_grid_tpu = l2_loss(pop_p_grid_aggr_TPU, re_data_aggr_by_division)
 loss_tpu = l_grid_tpu.mean()
-'''
+```
