@@ -19,8 +19,8 @@ These two datasets are composited tif file (30 meter, Hong Kong 1980 Grid coordi
 |26-28|ID, area(km2), and population density (/km2) by TPU|
 
 ## Methods
-Please refer to our paper (`TODO`) and the code (main.py and models.py). The core part is in lines 276-278:
-'''
+Please refer to our paper (`TODO`) and the code (1main.py1 and 1models.py1). The core part is in lines 276-278:
+'''python
 pop_p_grid = model(in_data_grid).reshape(m, n)
 delog_pop_p_grid =  torch.pow(10, pop_p_grid)
 pop_p_grid_aggr_TPU = torch.log10(aggragate_torch(delog_pop_p_grid, torch.from_numpy(RegionMask[1]))[1:]).squeeze(-1)
