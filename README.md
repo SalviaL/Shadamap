@@ -2,7 +2,7 @@
 An ANN-based Framework for Population Dasymetric Mapping to Avoid the Scale Heterogeneity
 
 ## Dataset
-This project provides two geospatial dataset in Hong Kong in 2016 and 2021. You can download it by following [Dataset link][https://drive.google.com/drive/folders/1-HIdq1tPI3eqSXbCDcV-qN29adj8fgjg?usp=sharing]. 
+This project provides two geospatial dataset in Hong Kong in 2016 and 2021. You can download it by following [Dataset link](https://drive.google.com/drive/folders/1-HIdq1tPI3eqSXbCDcV-qN29adj8fgjg?usp=sharing).
 These two datasets are composited tif file (30 meter, Hong Kong 1980 Grid coordination system) with 28 bands (layers), the meaning fo each band is listed in the following tabel:
 |Band #|Meaning|
 |---|---|
