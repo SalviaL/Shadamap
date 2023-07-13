@@ -22,6 +22,13 @@ These two datasets are composed of TIFF files (30 meters, Hong Kong 1980 Grid co
 | 23-25 | ID, area (km2), and population density (/km2) by TPSU |
 | 26-28 | ID, area (km2), and population density (/km2) by TPU |
 
+For data in 2016, please add the following patches:
+```
+RegionMask[1][RegionMask[0] == 800] = 214
+PopDensity[1][RegionMask[0] == 800] = 25.806874
+Area[1][Area[0] == 800] = 45.879248
+```
+
 ## Methods
 
 Please refer to our paper (`TODO`) and the code (`main.py` and `models.py`). The core part of the method is shown below:
