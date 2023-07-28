@@ -1,5 +1,6 @@
-# SHAF4DM
+# Shadamap
 
+**S**cale **H**eterogeneity **A**voided **Da**symetric **Map**ping
 *Please note that this project is currently under construction.*
 
 ## Dataset
