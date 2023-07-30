@@ -1,4 +1,4 @@
-# Shadamap: **S**cale **H**eterogeneity **A**voided **Da**symetric **Map**ping
+# Shadamap: **S**cale **H**eterogeneity **A**voided **DA**symetric **MAP**ping
 
 *Please note that this project is currently under construction.*
 
