@@ -31,7 +31,19 @@ Area[1][Area[0] == 800] = 45.879248
 
 ## Methods
 
-Please refer to our paper (`TODO`) and the code (`main.py` and `models.py`). The core part of the method is shown below:
+Please refer to our paper and the code (`main.py` and `models.py`). The core part of the method is shown below:
+
+```bibtex
+Weipeng Lu, Qihao Weng,
+An ANN-based method for population Dasymetric mapping to avoid the scale heterogeneity: A case study in Hong Kong, 2016–2021,
+Computers, Environment and Urban Systems,
+Volume 108,
+2024,
+102072,
+ISSN 0198-9715,
+https://doi.org/10.1016/j.compenvurbsys.2024.102072.
+(https://www.sciencedirect.com/science/article/pii/S0198971524000012)
+```
 
 ```python
 pop_p_grid = model(in_data_grid).reshape(m, n)
